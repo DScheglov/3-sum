@@ -1,0 +1,36 @@
+{
+  "name": "3-summ",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Given an unordered array S of n integers. Find all unique triplets in the array each of them gives the sum of zero.",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node lib/index"
+  },
+  "keywords": [
+    "3",
+    "sum",
+    "problem",
+    "algorithm",
+    "js"
+  ],
+  "author": "Dmitry Scheglov <dmitry.scheglov@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  },
+  "main": "lib/find-triplets.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DScheglov/3-sum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DScheglov/3-sum/issues"
+  },
+  "homepage": "https://github.com/DScheglov/3-sum#readme"
+}
